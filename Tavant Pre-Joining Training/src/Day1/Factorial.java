@@ -1,4 +1,4 @@
-package Day1;
+package day1;
 
 import java.util.Scanner;
 
@@ -14,12 +14,13 @@ static int CalculateFactorial(int a)
  return p;
 	}
         public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int f;
+		Scanner scanner = new Scanner(System.in);
+		int number;
 		System.out.println("Enter The No:");
-		f=sc.nextInt();
-		System.out.println("Factorial = "+CalculateFactorial(f));
-		sc.close();
+		number=scanner.nextInt();
+		System.out.println("Factorial = "+CalculateFactorial(number));
+		scanner.close();
 		}
 
 }
+
