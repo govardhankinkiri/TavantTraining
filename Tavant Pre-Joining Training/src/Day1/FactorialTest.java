@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-lass FactTest {
+class FactTest {
 
 	@Test
 	void test() {
