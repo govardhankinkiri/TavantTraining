@@ -11,7 +11,9 @@ class HelloWorldTest {
 		HelloWorld prg = new HelloWorld();
 		String output =prg.getMessage();
 		assertEquals("HelloWorld",output);
-		
+		String output1 =prg.getMessage();
+		assertEquals("HelloWorl",output1);
 	}
 
 }
+
